@@ -46,34 +46,23 @@ public class AppMenu {
         //GENERAL CATEGORY START
         List<MenuItem> generalMenuItems = new ArrayList<>();
         generalMenuItems.add(new MenuItem("Get Started", "/getstarted"));
-        generalMenuItems.add(new MenuItem("Documentation", "https://primefaces.github.io/primefaces/10_0_0/#/"));
-        generalMenuItems.add(new MenuItem("Content Security", "https://primefaces.github.io/primefaces/10_0_0/#/core/contentsecuritypolicy"));
         menuCategories.add(new MenuCategory("General", generalMenuItems));
         //GENERAL CATEGORY END
 
         //SUPPORT CATEGORY START
         List<MenuItem> supportMenuItems = new ArrayList<>();
-        supportMenuItems.add(new MenuItem("Forum", "https://forum.primefaces.org"));
-        supportMenuItems.add(new MenuItem("Discord Chat", "https://discord.gg/gzKFYnpmCY"));
         supportMenuItems.add(new MenuItem("PRO Support", "/support"));
         menuCategories.add(new MenuCategory("Support", supportMenuItems));
         //SUPPORT CATEGORY END
 
         //RESOURCES CATEGORY START
         List<MenuItem> resourcesMenuItems = new ArrayList<>();
-        resourcesMenuItems.add(new MenuItem("PrimeTV", "https://www.youtube.com/channel/UCTgmp69aBOlLnPEqlUyetWw"));
-        resourcesMenuItems.add(new MenuItem("Source Code", "https://github.com/primefaces/primefaces"));
-        resourcesMenuItems.add(new MenuItem("Store", "https://www.primefaces.org/store"));
-        resourcesMenuItems.add(new MenuItem("Twitter", "https://twitter.com/primefaces?lang=en"));
         menuCategories.add(new MenuCategory("Resources", resourcesMenuItems));
         //RESOURCES CATEGORY END
 
         //THEMING CATEGORY START
         List<MenuItem> themingMenuItems = new ArrayList<>();
         themingMenuItems.add(new MenuItem("Introduction", "/theming"));
-        themingMenuItems.add(new MenuItem("Theme Designer", "https://www.primefaces.org/designer/primefaces"));
-        themingMenuItems.add(new MenuItem("Visual Editor", "https://www.primefaces.org/designer-jsf"));
-        themingMenuItems.add(new MenuItem("SASS API", "https://www.primefaces.org/designer/api/primefaces/10.0.0/"));
         menuCategories.add(new MenuCategory("Theming", themingMenuItems));
         //THEMING CATEGORY END
 
