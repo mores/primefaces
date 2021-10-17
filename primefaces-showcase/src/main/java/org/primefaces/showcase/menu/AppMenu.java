@@ -55,29 +55,11 @@ public class AppMenu {
         menuCategories.add(new MenuCategory("Support", supportMenuItems));
         //SUPPORT CATEGORY END
 
-        //RESOURCES CATEGORY START
-        List<MenuItem> resourcesMenuItems = new ArrayList<>();
-        menuCategories.add(new MenuCategory("Resources", resourcesMenuItems));
-        //RESOURCES CATEGORY END
-
         //THEMING CATEGORY START
         List<MenuItem> themingMenuItems = new ArrayList<>();
         themingMenuItems.add(new MenuItem("Introduction", "/theming"));
         menuCategories.add(new MenuCategory("Theming", themingMenuItems));
         //THEMING CATEGORY END
-
-        //PRIMEFLEX CATEGORY START
-        List<MenuItem> primeFlexMenuItems = new ArrayList<>();
-        primeFlexMenuItems.add(new MenuItem("Setup", "/primeflex/setup"));
-        primeFlexMenuItems.add(new MenuItem("Display", "/primeflex/display"));
-        primeFlexMenuItems.add(new MenuItem("Elevation", "/primeflex/elevation"));
-        primeFlexMenuItems.add(new MenuItem("FlexBox", "/primeflex/flexbox"));
-        primeFlexMenuItems.add(new MenuItem("Form Layout", "/primeflex/formlayout"));
-        primeFlexMenuItems.add(new MenuItem("Grid System", "/primeflex/grid"));
-        primeFlexMenuItems.add(new MenuItem("Spacing", "/primeflex/spacing"));
-        primeFlexMenuItems.add(new MenuItem("Text", "/primeflex/text"));
-        menuCategories.add(new MenuCategory("PrimeFlex 2.0.0", primeFlexMenuItems));
-        //PRIMEFLEX CATEGORY END
 
         //PRIMEICONS CATEGORY START
         List<MenuItem> primeIconsMenuItems = new ArrayList<>();
